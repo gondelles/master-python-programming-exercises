@@ -4,9 +4,7 @@ def total_cost(d, c, n):
     centavos = (d * 100) + c
 
     total = centavos * n
-
     total_usd = total // 100
-
     total_cent = total % 100
 
     return (total_usd,total_cent)
